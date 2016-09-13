@@ -2,7 +2,6 @@ package swipe.example.com.swipeit;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -43,8 +42,6 @@ public class MainFragment extends Fragment {
         ItemTouchHelper.Callback callback = new SimpleItemTouchHelperAdapter(recyclerListAdapter);
         ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
         touchHelper.attachToRecyclerView(recyclerView);
-
-
 
     }
 }
