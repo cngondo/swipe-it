@@ -7,6 +7,9 @@ Example of app that demonstrates swipe to delete feature. No library used!!
 
 ## Technologies Used
 [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
+
 [ItemTouchHelper](https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.html)
+
 [ItemTouchHelper.Callback](https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.Callback.html)
+
 [Fragments](https://developer.android.com/guide/components/fragments.html)
